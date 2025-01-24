@@ -1,8 +1,8 @@
 <?php
     // Capitulo 8 - Microservicio 
 
-    $apiKey = "c6ff551fed7063b6575e726a1ebfe537";
-    $cityId = "3843123";
+    $apiKey = "API KEY";
+    $cityId = "ID CIUDAD";
     $googleApiUrl = "http://api.openweathermap.org/data/2.5/weather?id=" . $cityId . "&lang=en&units=metric&APPID=" . $apiKey;
 
     $ch = curl_init();
